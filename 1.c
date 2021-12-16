@@ -35,7 +35,7 @@ int main(void){
 		strlwr(buffer);                          //소문자로 바꿈  
 		Eliminate(buffer,'.');                   //.문자 삭제  
 		Eliminate(buffer,',');                   //,문자 삭제  
-	    EliminateEnter(buffer);                  //Enter 삭제  
+	    	EliminateEnter(buffer);                  //Enter 삭제  
 		fprintf(filtering,"%s",buffer);          //buffer에 저장된 내용을 filtering.txt에 저장 
 	}
 	
